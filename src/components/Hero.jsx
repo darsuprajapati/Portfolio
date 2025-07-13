@@ -35,7 +35,7 @@ const Hero = () => {
             </div>
             <div className="w-full lg:w-1/2">
                 <motion.div className="flex flex-col items-center lg:items-start mt-10" initial="hidden" animate="visible" variants={containerVariants}>
-                    <motion.h2 variants={childVariants} className="pb-2 text-4xl tracking-tighter lg:text-8xl">Darshan Prajapati</motion.h2>
+                    <motion.h2 variants={childVariants} className="pb-2 text-4xl tracking-tighter lg:text-7xl">Darshan Prajapati</motion.h2>
                     <motion.span variants={childVariants} className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent">Full Stack Developer</motion.span>
                     <motion.p variants={childVariants} className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">
                         {HERO_CONTENT}
