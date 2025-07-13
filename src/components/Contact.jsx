@@ -10,9 +10,9 @@ const Contact = () => {
                 {CONTACT.address}
             </motion.p>
             <motion.p whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className="my-4">
-                {CONTACT.phoneNo}
+              <a href="tel:+91 9724478216">{CONTACT.phoneNo}</a>  
             </motion.p>
-            <a href="#" className="border-b">{CONTACT.email}</a>
+            <a href="mailto:darsuprajapati262@gmail.com" className="border-b">{CONTACT.email}</a>
         </div>
     </div>
   )
