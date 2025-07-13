@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { ABOUT_TEXT } from '../constants'
 
 const About = () => {
   return (
@@ -16,14 +17,9 @@ const About = () => {
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}
         transition={{ duration: 1 }}
-        className="max-w-2xl mx-auto text-lg leading-relaxed text-center"
+        className="max-w-5xl mx-auto text-lg leading-relaxed text-center"
       >
-        <p className="mb-6">
-          Hello! I am passionate about web development and always eager to learn new technologies. My journey started with a strong foundation in academics and has been enriched by hands-on, skill-based learning.
-        </p>
-        <p>
-          I believe in continuous learning and strive to deliver high-quality solutions in every project I undertake.
-        </p>
+        {ABOUT_TEXT}
       </motion.div>
     </div>
   )
