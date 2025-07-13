@@ -20,9 +20,11 @@ const Experiences = () => {
                                 <span className='text-sm text-stone-500'>{experience.company}</span>
                             </h3>
                             <p className='mb-4 text-stone-400'>{experience.description}</p>
+                            <div className='flex flex-wrap gap-y-3'>
                             {experience.technologies.map((tech, index) => (
                                 <span key={index} className="mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300">{tech}</span>
                             ))}
+                            </div>
                         </motion.div>
                     </div>
                 ))}
