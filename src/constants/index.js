@@ -26,18 +26,18 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", , "tailwindcss", "React", "Node.js", "MongoDB"],
   },
   {
-    title: "Task Management App",
+    title: "TaskFlow",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+      "An application for managing tasks , with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "tailwindcss", "React", "Node.js", "MongoDB"],
   },
   {
-    title: "Portfolio Website",
+    title: "MailMindr",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "tailwindcss", "React",],
+      "Schedule, manage, and send email reminders automatically. Stay on top of follow-ups, deadlines, and important communications.",
+    technologies: ["HTML", "CSS", "tailwindcss", "React","Node.js", "MongoDB"],
   },
   {
     title: "Blogging Platform",
