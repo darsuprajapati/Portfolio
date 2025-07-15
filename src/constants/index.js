@@ -23,7 +23,8 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", , "tailwindcss", "React", "Node.js", "MongoDB"],
+    technologies: ["HTML", "CSS", "tailwindcss", "React", "Node.js", "MongoDB"],
+    link: "https://your-ecommerce-demo-link.com",
   },
   {
     title: "TaskFlow",
@@ -31,6 +32,7 @@ export const PROJECTS = [
     description:
       "An application for managing tasks , with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "tailwindcss", "React", "Node.js", "MongoDB"],
+    link: "https://task-flow-wfly.vercel.app",
   },
   {
     title: "MailMindr",
@@ -38,6 +40,7 @@ export const PROJECTS = [
     description:
       "Schedule, manage, and send email reminders automatically. Stay on top of follow-ups, deadlines, and important communications.",
     technologies: ["HTML", "CSS", "tailwindcss", "React","Node.js", "MongoDB"],
+    link: "https://mail-mindr-email.vercel.app",
   },
   {
     title: "Blogging Platform",
@@ -45,8 +48,10 @@ export const PROJECTS = [
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "React.js", "Express", "MongoDB"],
+    link: "https://your-blogging-demo-link.com",
   },
 ];
+
 
 export const CONTACT = {
   address: "Surat Gujarat 394107",
