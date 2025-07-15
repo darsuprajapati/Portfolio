@@ -13,7 +13,7 @@ const Projects = () => {
                             <img src={project.image} alt={project.title} className="mb-6 rounded cursor-pointer hover:opacity-90 transition sm:max-w-[250px] sm:max-h-[250px] max-w-[350px] h-full" />
                         </a>
                     </motion.div>
-                    <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className="ml-3 w-full lg:max-w-xl lg:w-3/4">
+                    <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className="sm:ml-3 w-full lg:max-w-xl lg:w-3/4">
                         <a href={project.link} target="_blank" rel="noopener noreferrer" className="decoration-0">
                             <h3 className="mb-2 font-semibold text-2xl ">{project.title}</h3>
                         </a>
