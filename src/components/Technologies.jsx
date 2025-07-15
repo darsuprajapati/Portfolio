@@ -32,7 +32,7 @@ const techIcons = [
 
 const Technologies = () => {
   return (
-    <div className='pb-24'>
+    <div className='pb-20'>
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
