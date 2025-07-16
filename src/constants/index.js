@@ -19,12 +19,12 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Rabbit E-Commerce Website",
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "tailwindcss", "React", "Node.js", "MongoDB"],
-    link: "https://your-ecommerce-demo-link.com",
+    link: "https://rabbit-ecommerce-vj3c.vercel.app",
   },
   {
     title: "TaskFlow",
