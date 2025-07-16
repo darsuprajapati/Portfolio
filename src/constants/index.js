@@ -43,12 +43,12 @@ export const PROJECTS = [
     link: "https://mail-mindr-auto.vercel.app",
   },
   {
-    title: "Blogging Platform",
+    title: "Chspace.ke E-commerce API",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "React.js", "Express", "MongoDB"],
-    link: "https://your-blogging-demo-link.com",
+      "RESTful API for an e-commerce platform including user auth, product, wishlist, order, and payment modules.",
+    technologies: ["Node", "Express","jsonwebtoken","MongoDB",],
+    link: "https://chspace-ke-ecommers-api.vercel.app",
   },
 ];
 
