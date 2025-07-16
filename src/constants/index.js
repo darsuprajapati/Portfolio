@@ -40,7 +40,7 @@ export const PROJECTS = [
     description:
       "Schedule, manage, and send email reminders automatically. Stay on top of follow-ups, deadlines, and important communications.",
     technologies: ["HTML", "CSS", "tailwindcss", "React","Node.js", "MongoDB"],
-    link: "https://mail-mindr-email.vercel.app",
+    link: "https://mail-mindr-auto.vercel.app",
   },
   {
     title: "Blogging Platform",
